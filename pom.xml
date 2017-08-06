@@ -1,27 +1,22 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
   <modelVersion>4.0.0</modelVersion>
-
   <parent>
     <groupId>org.apache</groupId>
     <artifactId>apache</artifactId>
     <version>14</version>
   </parent>
-
   <groupId>com.twitter</groupId>
   <artifactId>parquet</artifactId>
   <version>1.6.0rc3-SNAPSHOT</version>
   <packaging>pom</packaging>
-
   <name>Apache Parquet MR (Incubating)</name>
   <url>https://parquet.incubator.apache.org</url>
   <description>Parquet is a columnar storage format that supports nested data. This provides the java implementation.</description>
-
   <scm>
     <connection>scm:git:git@github.com:apache/incubator-parquet-mr.git</connection>
     <url>scm:git:git@github.com:apache/incubator-parquet-mr.git</url>
     <developerConnection>scm:git:https://git-wip-us.apache.org/repos/asf/incubator-parquet-format.git</developerConnection>
   </scm>
-
   <licenses>
     <license>
       <name>The Apache Software License, Version 2.0</name>
